@@ -1,0 +1,27 @@
+# IDE / 编辑器
+.vscode/
+
+# Python 缓存
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# 虚拟环境（按需保留）
+.venv/
+venv/
+env/
+
+# 数据集（体积大，不应入库）
+datasets/
+
+# 实验输出 / 结果
+results/
+runs/
+
+# 日志
+*.log
+
+# 操作系统
+.DS_Store
+Thumbs.db
